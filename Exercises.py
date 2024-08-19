@@ -4,8 +4,10 @@ class Exercise1(Scene):
     def construct(self):
         circle = Circle().set_fill(PURPLE,opacity=0.5)
         circle.set_stroke(WHITE,width=4)
+        
         triangle = Triangle().set_fill(RED,opacity=0.5).next_to(circle,RIGHT,buff=1)
         triangle.set_stroke(WHITE,width =4)
+        
         square = Square().set_fill(BLUE,opacity=0.5).next_to(circle,LEFT,buff = 1)
         square.set_stroke(WHITE,width=4)
 
@@ -18,11 +20,13 @@ class Exercise1(Scene):
         self.wait()
 
         line = Line(square.get_center(),circle.get_center(),color = YELLOW)
+        
         self.play(Create(line))
         self.wait()
         self.play(Uncreate(line))
 
         self.play(square.animate.shift(3*DOWN))
+        
         self.wait()
         self.play(FadeOut(square),FadeOut(circle),FadeOut(triangle))
         self.wait()
