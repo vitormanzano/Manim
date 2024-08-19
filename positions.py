@@ -26,8 +26,10 @@ class PositioningObjects(Scene):
 
         self.play(Create(circle),Create(square),Create(triangle))
         self.wait()
+        
         self.play(Create(line))
         self.wait()
+        
         self.play(Create(circle_moved),Create(square_aligned))
         self.wait()
         self.play(DrawBorderThenFill(circle_shifted))
