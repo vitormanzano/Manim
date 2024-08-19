@@ -4,8 +4,10 @@ class PositioningObjects(Scene):
     def construct(self):
         circle = Circle().set_fill(PINK,opacity=0.5)
         circle.set_stroke(WHITE,width=4)
+        
         square = Square().set_fill(BLUE,opacity=0.5)
         square.set_stroke(WHITE,width=4)
+        
         triangle = Triangle().set_fill(GREEN,opacity=0.5)
         triangle.set_stroke(WHITE,width=4)
 
