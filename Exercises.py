@@ -37,8 +37,10 @@ class Exercise1(Scene):
 class Exercise2(Scene):
     def construct(self):
         triangle = Triangle().set_fill(RED,opacity=0.5)
+        
         self.play(Create(triangle))
         self.wait()
+        
         self.play(Rotate(triangle,angle=PI/2))
 
         self.play(triangle.animate.scale(1.5))
@@ -48,6 +50,7 @@ class Exercise2(Scene):
 
         self.play(ReplacementTransform(triangle,circle))
         self.wait()
+        
         self.play(circle.animate.shift(3*RIGHT))
         self.wait()
         
