@@ -15,6 +15,7 @@ class BhaskaraProof(Scene):
         self.play(FadeOut(title),FadeOut(subtitle))
 
         def produtoNotavel():
+            
             introducao  = Text('Quadrado perfeito',font_size = 100)
             p1 = MathTex('(X+Y)^2',font_size = 100)
             p2 = MathTex('X^2 + 2XY + Y^2',font_size = 100)
