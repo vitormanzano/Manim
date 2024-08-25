@@ -16,6 +16,7 @@ class PositioningObjects(Scene):
 
         circle_moved = Circle(color=WHITE).move_to(triangle)
         circle_moved.align_to(triangle,DOWN)
+        
         square_aligned = Square(side_length=0.75)
         square_aligned.align_to(circle,UP)
 
