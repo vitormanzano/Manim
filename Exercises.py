@@ -2,6 +2,7 @@ from manim import *
 
 class Exercise1(Scene):
     def construct(self):
+        
         circle = Circle().set_fill(PURPLE,opacity=0.5)
         circle.set_stroke(WHITE,width=4)
         
@@ -36,6 +37,7 @@ class Exercise1(Scene):
 
 class Exercise2(Scene):
     def construct(self):
+        
         triangle = Triangle().set_fill(RED,opacity=0.5)
         
         self.play(Create(triangle))
