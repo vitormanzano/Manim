@@ -1,6 +1,6 @@
 from manim import * 
 import numpy as np
-'''
+
 class Exercise1(Scene):
     def construct(self):
         square = Square()
@@ -101,4 +101,4 @@ class Exercise3(Scene):
         lineLabel =  Text('Conexão',font_size=24).next_to(line1,DOWN)
 
         self.play(Create(line1),Write(lineLabel))
-        self.wait(2)'''
+        self.wait(2)
