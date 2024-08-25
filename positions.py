@@ -41,6 +41,7 @@ class AnimatedTransformations(Scene):
     def construct(self):
         square = Square().set_fill(BLUE,opacity=0.5)
         square.set_stroke(WHITE,width=4)
+        
         circle = Circle().set_fill(RED,opacity=0.5)
         circle.set_stroke(WHITE,width=4)
         
