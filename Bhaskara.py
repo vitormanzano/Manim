@@ -8,6 +8,7 @@ class BhaskaraProof(Scene):
 
         subtitle = MathTex(r'\text{Fórmula de Bhaskara}',font_size=70,color= BLUE)
         subtitle.next_to(title,DOWN,buff=0.5)
+        
         self.play(Write(subtitle))
         self.wait()
 
