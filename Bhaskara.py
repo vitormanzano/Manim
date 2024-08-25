@@ -37,8 +37,10 @@ class BhaskaraProof(Scene):
             
             self.play(ReplacementTransform(p1,p2))
             self.wait(1.5)
+            
             self.play(Write(deducao),ReplacementTransform(p2,step2))
             self.wait(2)
+            
             self.play(Uncreate(step2))
             self.play(ReplacementTransform(deducao,deducao2))
             
