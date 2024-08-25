@@ -18,9 +18,11 @@ class BhaskaraProof(Scene):
             introducao  = Text('Quadrado perfeito',font_size = 100)
             p1 = MathTex('(X+Y)^2',font_size = 100)
             p2 = MathTex('X^2 + 2XY + Y^2',font_size = 100)
+            
             step2 = MathTex(r'x^2 + \frac{b}{a}x = -\frac{c}{a}',font_size = 100)
             deducao = Text('Se temos',font_size=70).shift(2*UP)
             deducao2 = Text('Precisaremos do segundo termo',font_size= 50,color = RED)
+            
             p3 = MathTex(r'2XY = \frac{b}{a}X',font_size=100)
             p4 = MathTex(r'Y = \frac{b}{2a}',font_size=100)
             deducao3 = Text('y precisa ser...',font_size = 50).shift(2*UP)
