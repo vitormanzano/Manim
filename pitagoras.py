@@ -1,7 +1,8 @@
 from manim import *
 
 class triangulo(Scene):
-    def construct(self):
+    def construct(self):  
+        
         triangle = Triangle()
         triangle_label = Text('Teorema de pitágoras',font_size = 40).next_to(triangle,2*UP)
         triangle_label.set_fill(YELLOW)
