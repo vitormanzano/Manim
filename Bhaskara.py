@@ -43,11 +43,12 @@ class BhaskaraProof(Scene):
             
             self.play(Uncreate(step2))
             self.play(ReplacementTransform(deducao,deducao2))
-            
             self.wait(1.5)
+            
             self.play(Uncreate(deducao2))
             self.play(ReplacementTransform(step2,p3))
             self.wait(1.5)
+            
             self.play(Write(deducao3))
             self.wait()
             self.play(ReplacementTransform(p3,p4))
