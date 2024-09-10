@@ -111,7 +111,6 @@ class BhaskaraProof(Scene):
 
 
 
-
             
 
             
