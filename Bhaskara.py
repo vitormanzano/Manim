@@ -106,6 +106,5 @@ class BhaskaraProof(Scene):
         self.play(Uncreate(text))
         self.wait()
 
-        
 
             
