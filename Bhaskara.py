@@ -107,6 +107,5 @@ class BhaskaraProof(Scene):
         self.wait()
 
         
-            
 
             
