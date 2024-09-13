@@ -15,4 +15,3 @@ class triangulo(Scene):
         self.remove(triangle_label)
 
         self.play(ReplacementTransform(triangle,square))
-        
