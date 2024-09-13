@@ -16,5 +16,3 @@ class triangulo(Scene):
 
         self.play(ReplacementTransform(triangle,square))
         
-
-       
