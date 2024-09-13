@@ -72,7 +72,3 @@ class Exercise2(Scene):
 
         
         
-
-    
-
-        
