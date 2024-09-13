@@ -105,6 +105,3 @@ class BhaskaraProof(Scene):
         self.play(FadeOut(step6))
         self.play(Uncreate(text))
         self.wait()
-
-
-            
