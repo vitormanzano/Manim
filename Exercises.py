@@ -69,6 +69,3 @@ class Exercise2(Scene):
         mensagem = Text('Transformações completas!',font_size  = 30).next_to(square,DOWN)
 
         self.play(Write(mensagem))
-
-        
-        
