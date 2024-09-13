@@ -19,5 +19,3 @@ class triangulo(Scene):
 
        
 
-
-    
