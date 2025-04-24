@@ -4,10 +4,8 @@ class PositioningObjects(Scene):
     def construct(self):
         circle = Circle().set_fill(PINK,opacity=0.5)
         circle.set_stroke(WHITE,width=4)
-        
         square = Square().set_fill(BLUE,opacity=0.5)
         square.set_stroke(WHITE,width=4)
-        
         triangle = Triangle().set_fill(GREEN,opacity=0.5)
         triangle.set_stroke(WHITE,width=4)
 
@@ -16,7 +14,6 @@ class PositioningObjects(Scene):
 
         circle_moved = Circle(color=WHITE).move_to(triangle)
         circle_moved.align_to(triangle,DOWN)
-        
         square_aligned = Square(side_length=0.75)
         square_aligned.align_to(circle,UP)
 
@@ -27,10 +24,8 @@ class PositioningObjects(Scene):
 
         self.play(Create(circle),Create(square),Create(triangle))
         self.wait()
-        
         self.play(Create(line))
         self.wait()
-        
         self.play(Create(circle_moved),Create(square_aligned))
         self.wait()
         self.play(DrawBorderThenFill(circle_shifted))
@@ -41,7 +36,6 @@ class AnimatedTransformations(Scene):
     def construct(self):
         square = Square().set_fill(BLUE,opacity=0.5)
         square.set_stroke(WHITE,width=4)
-        
         circle = Circle().set_fill(RED,opacity=0.5)
         circle.set_stroke(WHITE,width=4)
         
