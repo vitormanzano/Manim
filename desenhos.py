@@ -48,7 +48,6 @@ class LinesAndArrows(Scene):
         #Vai da esquerda até a direita, ordem abaixo
         generic_line = Line(2*LEFT,2*RIGHT, color = WHITE)
         generic_line_label =Text('Linha genérica', font_size=24).next_to(generic_line,UP)
-        
         #vai de 6 blocos acima até 2 blocos acima, ordem abaixo
         generic_arrow = Arrow(6*UP, 2*UP, color = YELLOW)
         generic_arrow_label = Text('Seta genérica', font_size=24).next_to(generic_line,RIGHT)
