@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/vitormanzano/Manim/media/videos/ValueTracker/1920p60/partial_movie_files/CenaMoveAlongPath/1795198041_1258090323_223132457.mp4'
+file 'file:C:/Users/vitormanzano/Manim/media/videos/ValueTracker/1920p60/partial_movie_files/CenaMoveAlongPath/2210946382_357750438_586960364.mp4'
+file 'file:C:/Users/vitormanzano/Manim/media/videos/ValueTracker/1920p60/partial_movie_files/CenaMoveAlongPath/2210946382_2834709167_3641844245.mp4'

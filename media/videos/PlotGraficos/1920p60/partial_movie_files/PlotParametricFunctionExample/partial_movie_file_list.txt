@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/vitormanzano/Manim/media/videos/PlotGraficos/1920p60/partial_movie_files/PlotParametricFunctionExample/1795198041_3720180554_4145207904.mp4'
+file 'file:C:/Users/vitormanzano/Manim/media/videos/PlotGraficos/1920p60/partial_movie_files/PlotParametricFunctionExample/2210946382_1002644532_1860105364.mp4'
+file 'file:C:/Users/vitormanzano/Manim/media/videos/PlotGraficos/1920p60/partial_movie_files/PlotParametricFunctionExample/2210946382_1141282389_2840657704.mp4'
