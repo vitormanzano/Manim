@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/vitormanzano/Manim/media/videos/PlotGraficos/1920p60/partial_movie_files/PlotFunctionExample/1795198041_2033328715_3085100060.mp4'
+file 'file:C:/Users/vitormanzano/Manim/media/videos/PlotGraficos/1920p60/partial_movie_files/PlotFunctionExample/2210946382_1662451249_3926879826.mp4'
+file 'file:C:/Users/vitormanzano/Manim/media/videos/PlotGraficos/1920p60/partial_movie_files/PlotFunctionExample/2210946382_1141282389_816714369.mp4'

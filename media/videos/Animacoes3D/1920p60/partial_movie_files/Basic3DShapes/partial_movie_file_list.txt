@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/vitormanzano/Manim/media/videos/Animacoes3D/1920p60/partial_movie_files/Basic3DShapes/1881192512_830491688_729892282.mp4'
+file 'file:C:/Users/vitormanzano/Manim/media/videos/Animacoes3D/1920p60/partial_movie_files/Basic3DShapes/2852415067_2007622907_3299445481.mp4'
+file 'file:C:/Users/vitormanzano/Manim/media/videos/Animacoes3D/1920p60/partial_movie_files/Basic3DShapes/3131830628_3402799176_3144350886.mp4'
+file 'file:C:/Users/vitormanzano/Manim/media/videos/Animacoes3D/1920p60/partial_movie_files/Basic3DShapes/3694095655_658857306_1806572583.mp4'
+file 'file:C:/Users/vitormanzano/Manim/media/videos/Animacoes3D/1920p60/partial_movie_files/Basic3DShapes/3223474618_3515533520_2894935066.mp4'
